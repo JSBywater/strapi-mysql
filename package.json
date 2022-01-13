@@ -1,16 +1,15 @@
 {
-  "name": "getstarted",
+  "name": "quick-strapi",
   "private": true,
-  "version": "4.0.4",
-  "description": "A Strapi application.",
+  "version": "0.1.0",
+  "description": "A Strapi application",
   "scripts": {
     "develop": "strapi develop",
-    "develop:ce": "STRAPI_DISABLE_EE=true strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "build:ce": "STRAPI_DISABLE_EE=true strapi build",
     "strapi": "strapi"
   },
+  "devDependencies": {},
   "dependencies": {
     "@strapi/admin": "4.0.4",
     "@strapi/plugin-documentation": "4.0.4",
@@ -29,12 +28,15 @@
     "pg": "8.6.0",
     "sqlite3": "5.0.2"
   },
+  "author": {
+    "name": "A Strapi developer"
+  },
   "strapi": {
-    "uuid": "getstarted"
+    "uuid": "b9941c47-d975-4f82-9021-89dc615ffd0a"
   },
   "engines": {
-    "node": ">=12.22.0 <=16.x.x",
-    "npm": ">=6.0.0"
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": "^6.0.0"
   },
   "license": "MIT"
 }
